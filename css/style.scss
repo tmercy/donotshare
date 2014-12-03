@@ -13,15 +13,38 @@ div{
 
 }
 
-img, div{
-	opacity:.8;
-	transition:.5s linear;
+.main{
+	img, div{
+		opacity:.8;
+		transition:.5s linear;
+	}
+
+	img:hover, div:hover{
+		opacity:1;
+		transition:.5s linear;
+	}
 }
 
-img:hover, div:hover{
-	opacity:1;
-	transition:.5s linear;
+.nav{
+	font-size:100px;
+	font-weight:bold;
+	text-align:center;
+	color:white;
+	margin:0 auto;
+	width:900px;
+
+	.title{
+	background-color:red;
+	}
+	.tagline{
+	color:white;
+	font-size:15px;
+	font-weight:normal;
+	background-color:red;
+	}
 }
+
+
 
 .third{
 	width: calc(100%/3);

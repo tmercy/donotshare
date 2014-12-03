@@ -1,0 +1,9 @@
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+#Big Photoshop Files
+*.psd
+*.tif
+*.tiff
+*.codekit
